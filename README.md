@@ -1,6 +1,6 @@
 # create-fasterr
 
-Create fasterr your shipping-fasterr repo
+Create fasterr your [shipping-fasterr](https://github.com/pavle-doby/shipping-fasterr) repo
 
 ## Usage
 
