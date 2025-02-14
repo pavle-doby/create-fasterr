@@ -1,0 +1,56 @@
+{
+  "name": "create-fasterr",
+  "version": "1.0.0",
+  "description": "create-fasterr your shipping-fasterr repo",
+  "main": "index.js",
+  "bin": {
+    "create-shipping-fasterr": "dist/index.js",
+    "create-fasterr": "dist/index.js",
+    "fasterr": "dist/index.js",
+    "create-shipping-faster": "dist/index.js",
+    "create-faster": "dist/index.js",
+    "faster": "dist/index.js"
+  },
+  "scripts": {
+    "test": "tsc && npm link create-fasterr && npm create fasterr",
+    "build": "tsc",
+    "prep": "tsc && npm link",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavle-doby/create-fasterr.git"
+  },
+  "keywords": [
+    "create-fasterr",
+    "create",
+    "fasterr",
+    "faster",
+    "template",
+    "next",
+    "expo",
+    "universal",
+    "tamagui"
+  ],
+  "author": "Pavle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavle-doby/create-fasterr/issues"
+  },
+  "homepage": "https://github.com/pavle-doby/create-fasterr#readme",
+  "dependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/figlet": "^1.7.0",
+    "chalk": "^5.4.1",
+    "degit": "^2.8.4",
+    "execa": "^9.5.2",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.4.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
