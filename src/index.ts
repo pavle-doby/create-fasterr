@@ -80,13 +80,18 @@ async function main() {
 
     console.log();
     console.log(
-      chalk.bold(`yarn web   `),
+      chalk.bold(`yarn web    `),
       chalk.reset(" | To run web (next) app")
     );
 
     console.log(
-      chalk.bold(`yarn native`),
+      chalk.bold(`yarn native `),
       chalk.reset(" | To run native (expo) app")
+    );
+
+    console.log(
+      chalk.bold(`yarn service`),
+      chalk.reset(" | To run service (API)")
     );
 
     console.log();

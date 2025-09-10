@@ -227,6 +227,20 @@ color-name@~1.1.4:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
+"create-fasterr@file:":
+  version "1.0.2"
+  resolved "file:"
+  dependencies:
+    "@types/degit" "^2.8.6"
+    "@types/figlet" "^1.7.0"
+    chalk "^5.4.1"
+    create-fasterr "file:"
+    degit "^2.8.4"
+    execa "^9.5.2"
+    figlet "^1.8.0"
+    gradient-string "^3.0.0"
+    inquirer "^12.4.1"
+
 cross-spawn@^7.0.3:
   version "7.0.6"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz"
